@@ -1,0 +1,128 @@
+.container{
+    width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.input a{
+  text-decoration: none;
+}
+.input{
+    
+    display: block;
+    background-color: rgb(226, 225, 223);
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 80px;
+
+   
+  
+} 
+
+.input:hover {
+ 
+  animation:         INDENT 2s 1; /* IE 10+ */
+  color:brown;
+}
+
+@-webkit-keyframes INDENT{  
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@-moz-keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@-o-keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+@keyframes INDENT {
+  0%   { text-indent: 0; }
+  50% { text-indent: 5px; }
+  100% { text-indent: 0; }
+}
+   
+.input2{
+  background-color: rgb(226, 225, 223);
+    width: 100%;
+    height: 350px;
+}
+
+.header{
+    padding: 50px;
+    text-align: center;
+    font-family:  'Times New Roman', Times, serif;
+}
+
+.first{
+  padding: 40px;
+}
+
+body,html {
+  margin: 0;
+  font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+  
+}
+ul { 
+  margin: 0px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+ 
+  
+}
+.input2 ul li .first{
+  font-size: 70px;
+  color: brown;
+  width: 50px;
+  height: 50px;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 15px 0;
+}
+a {
+  color:black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(230, 32, 32);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+
+
+
+
